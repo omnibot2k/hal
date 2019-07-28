@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.hateoas.ResourceSupport;
 
-@Dat:qa
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Author extends ResourceSupport {
