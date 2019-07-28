@@ -27,6 +27,8 @@ import java.util.Collection;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+//more info on pojos
+//https://stackoverflow.com/questions/25858698/spring-hateoas-embedded-resource-support
 
 //doesn't work
 /*
