@@ -1,0 +1,57 @@
+{
+  "_embedded": {
+    "authors": [
+      {
+        "firstName": "Techknow",
+        "lastName": "Surfer",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/authors/1"
+          },
+          "author": {
+            "href": "http://localhost:8888/authors/1"
+          },
+          "post": {
+            "href": "http://localhost:8888/authors/1/post"
+          }
+        }
+      },
+      {
+        "firstName": "Gaven",
+        "lastName": "King",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/authors/2"
+          },
+          "author": {
+            "href": "http://localhost:8888/authors/2"
+          },
+          "post": {
+            "href": "http://localhost:8888/authors/2/post"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8888/authors{?page,size,sort}",
+      "templated": true
+    },
+    "profile": {
+      "href": "http://localhost:8888/profile/authors"
+    }
+  },
+  "openSearch": {
+    "size": 2000000,
+    "totalElements": 20,
+    "totalPages": 10,
+    "number": 10
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 2,
+    "totalPages": 1,
+    "number": 0
+  }
+}
